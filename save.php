@@ -17,7 +17,7 @@ $sql = "INSERT INTO users (email, password)
         VALUES ('$email', '$hash')";
 
 if ($conn->query($sql)) {
-    echo "Registrazione completata! <a href='index.php'>Login</a>";
+    echo "Registrazione completata! <a href='index.html'>Login</a>";
 } else {
     echo "Errore: " . $conn->error;
 }
