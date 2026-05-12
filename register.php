@@ -20,7 +20,7 @@
         <button type="submit">Crea account</button>
     </form>
 
-    <p>Hai già un account? <a href="index.php">Login</a></p>
+    <p>Hai già un account? <a href="index.html">Login</a></p>
 </div>
 
 </body>
